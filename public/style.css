@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    /* background-color: rgb(172, 211, 246); */
+    background-color: #ffbca4; 
+
+    font-family: "Poppins", sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin:0;
+}
+
+.fa-sack-dollarser{
+    font-size: 30px;
+}
+h1,h2{
+    text-align: center;
+}
+
+.input-section{
+    display:flex;
+    flex-direction: column; 
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* border: 3px solid black; */
+    padding: 20px;
+    margin: 5% 25%;
+}
+
+.input-section label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* margin-right: 10px;*/
+}
+.input-section input{
+    padding: 10px;
+    margin-bottom: 10px;
+    /* margin-right: 10px; */
+    border: none;
+    border-radius: 6px;
+    
+}
+.input-section select{
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px;
+}
+.input-section button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(242, 73, 129);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 18px;
+}
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 8%;
+}
+th,td{
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;;
+}
+th{
+    background-color: rgb(246, 75, 28);
+    color:rgb(253, 253, 250)
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color:  rgb(246, 75, 28);
+    color: white;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
